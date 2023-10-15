@@ -27,6 +27,7 @@ setup(
     packages=["disco"],
     scripts=[
         "scripts/disco-manager.py",
+        "scripts/basic-disco-bot.py",
     ],
     include_package_data=True,
     keywords='',
