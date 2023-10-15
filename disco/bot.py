@@ -1,3 +1,4 @@
+import os
 import random
 import logging
 import traceback
@@ -16,7 +17,7 @@ class DiscoBot(object):
         self.handlers = []
 
         self.logger = init_logger(
-            filename=self.config["log_filename"],
+            filename=os.path.expanduser(self.config["log_filename"]),
             level=logging.INFO
         )
         self.logger.info("Logging started")

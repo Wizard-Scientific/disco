@@ -1,0 +1,12 @@
+{
+    "debug": true,
+    "bot_name": "basic",
+    "bot_prefix": "b",
+    "discord_token": "PUT_YOUR_TOKEN_HERE",
+    "faq_file": "~/Work/disco/usr/faq.json",
+    "state_path": "~/Work/disco/var/state",
+    "log_filename": "~/Work/disco/var/basic.log",
+    "allowed_channels": {
+        "Bot Dev": []
+    }
+}
