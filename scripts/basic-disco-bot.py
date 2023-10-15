@@ -14,7 +14,6 @@ from disco.listener.gm import GmHandler
 from disco.listener.gn import GnHandler
 from disco.listener.thankyou import ThankYouHandler
 from disco.listener.bad import BadHandler
-from disco.listener.tsuki import TsukiHandler
 
 
 class Basic(DiscoBot):
@@ -32,7 +31,6 @@ class Basic(DiscoBot):
         self.add_listener(GnHandler())
         self.add_listener(ThankYouHandler())
         self.add_listener(BadHandler())
-        self.add_listener(TsukiHandler())
 
         self.connect()
 

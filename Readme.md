@@ -1,5 +1,20 @@
 # disco
 
+Disco is a framework for writing discord bots.
+It is based on discord.py but provides some often-used utilities, including:
+
+- help
+- frequently asked questions
+- bot banter like gm, gn, thanks, etc
+- channel usage metrics (requires Postgres)
+- response handler framework
+- permissions framework
+- background asyncio loops
+- configuration file
+- logging
+- "state" as simple data storage in a JSON file (e.g. to track spam)
+- dexscreener integration (useful for econ discords)
+
 ## Install
 
 ```bash
