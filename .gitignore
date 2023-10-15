@@ -1,0 +1,12 @@
+/.env
+/.env-snowy
+/var/
+__pycache__/
+build/
+reports/
+.DS_Store
+*.egg-info
+dist/
+/src/.pytest_cache
+/usr/*.whl
+/etc/
