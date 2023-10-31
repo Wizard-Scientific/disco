@@ -24,7 +24,7 @@ setup(
     version=grep('__version__'),
     name='disco',
     description="Disco",
-    packages=["disco"],
+    packages=find_packages(),
     scripts=[
         "scripts/disco-manager.py",
         "scripts/basic-disco-bot.py",
