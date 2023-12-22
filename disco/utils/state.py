@@ -31,7 +31,9 @@ class State:
         return self.data
 
     def save(self):
-        with open(os.path.expanduser(self.state_filename), 'w') as f:
+        filename = os.path.expanduser(self.state_filename)
+        os.makedirs(os.path.dirname(filename), exist_ok=True)
+        with open(filename, 'w') as f:
             json.dump(self.data, f)
 
     def keys(self):
